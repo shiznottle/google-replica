@@ -152,6 +152,36 @@ div.footer li {
 	vertical-align: bottom;
 }
 
+@media(max-width: 800px) {
+	.cta input {
+		width: 80%;
+	}
+}
+
+@media(max-width: 475px) {
+	.footer .right {
+		display: none;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer .left{
+		width: 100%
+	}
+
+	.footer ul {
+		margin: 0;
+	}
+}
+
+@media(max-width: 450px) {
+	div.navigation ul {
+		margin-right: 15px;
+		padding: 0;
+	}
+}
 
 
 
